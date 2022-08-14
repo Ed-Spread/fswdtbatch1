@@ -1,0 +1,25 @@
+.container_style{
+    color: white;
+    background-color: rgb(18, 39, 55);
+    float: left;
+}
+
+.heading{
+    text-align: center;
+}
+
+.Contact_description{
+    text-align: justify;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.contact_links{
+    text-align: justify;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+}
