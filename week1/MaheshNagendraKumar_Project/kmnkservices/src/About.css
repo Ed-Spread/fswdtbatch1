@@ -1,0 +1,28 @@
+.about_page{
+    margin-bottom: 10%;
+    width: 80%;
+    flex: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image{
+    width: 400px;
+    margin-right: 15px;
+    float: left;
+    
+}
+
+.captions{
+    text-align: center;
+    align-self: stretch;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.paraGraph{
+    text-align: justify;
+    margin-right: 30px;
+    font-size: 100%;
+
+}

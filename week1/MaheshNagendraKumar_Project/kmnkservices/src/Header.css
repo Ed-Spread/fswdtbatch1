@@ -1,0 +1,42 @@
+.header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.header_logo{
+    width: 200px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 0.5px;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.profilePic{
+    width: 5px;
+}
+
+.header_nav_items{
+    display: -moz-box;
+    flex-direction: column;
+    color: white;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.button{
+    background-color: #131921;
+    border: #131921;
+    color: white;
+}
+
