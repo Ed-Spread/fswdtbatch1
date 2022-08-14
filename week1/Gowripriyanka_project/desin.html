@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #DA70D6;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #555;
+}
+.a{
+  text-decoration:underline;
+  text-align:center;
+  font-size:50px;
+}
+.az{
+  text-align:center;
+  font-size:40px;
+  font-style: italic;
+  background-color: #DDA0DD;
+}
+.az{
+  text-align:center;
+  font-size:20px;
+  font-style: italic;
+  background-color: #DDA0DD;
+}
+.ac{
+  text-decoration:underline;
+  text-align:center;
+  font-size:50px;
+  background-color: #DDA0DD;
+}
+.ab{
+  text-align:center;
+  font-size:30px;
+}
+.b{
+   text-align:center;
+   font-size:40px;
+   font-style: italic;
+}
+.c {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-style: italic;
+  text-align:center;
+  font-size:50px;
+}
+.button {
+  background-color: #DDA0DD;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #DDA0DD;
+}
+</style>
+</head>
+<body>
+
+<h1 class="ac">Daivik jewellery</h2>
+
+<p class="a">Looking for something?</p>
+<p class ="b">WE,VE GOT THEM ALL</P>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h2>BRIDAL</h2>
+	<img src="bridal.png" alt="bridal" style="width:90%;">
+        <p class ="ab">UPTO</P>
+        <p class ="c">30% OFF</P>
+      
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h2>DESIGN</h2>
+      <img src="desinger.jpg" alt="bridal" style="width:90%;">
+      <p class ="ab">UPTO</P>
+      <p class="c">20% OFF</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h2>FASHION</h2>
+      <img src="fashion.jpg" alt="bridal" style="width:90%;">
+      <p class ="ab">UNDER</P>
+      <p class ="c">199/- only</P>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h2>OXI-SILVER</h2>
+      <img src="oxi silver.jpg" alt="bridal" style="width:90%;">
+      <p class ="ab">UPTO</P>
+      <p class ="c">40% OFF</P>
+    </div>
+  </div>
+</div>
+
+<h2 class="az">BUY NOW save Rs.300.<button><a href="#" class="button">LOGIN</a></button></h2>
+</body>
+</html>
