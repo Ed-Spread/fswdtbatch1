@@ -1,0 +1,37 @@
+body{
+    background-image: url("/pictures/bg-image.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+.title{
+    font-family: cursive;
+    
+    text-align: center;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+.phrases{
+    color: red;
+    margin: 100px;
+    
+}
+a{
+    color:wheat;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    background-color: crimson;
+}
+.links{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
