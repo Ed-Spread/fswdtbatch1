@@ -1,0 +1,253 @@
+*
+{
+
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+
+}
+
+.carousel-item
+{
+    height:610px;
+    background-position: center;
+    width:1555px;
+
+}
+
+#ey,#feature
+{
+    /* background: rgb(34,193,195);
+    background: linear-gradient(207deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  */
+
+    /* background-image: url("assets/images/img_1_scroll.jpg"); */
+
+    background: #076585;  
+    background: -webkit-linear-gradient(to right, #fff, #076585);  
+    background: linear-gradient(to right, #fff, #076585); 
+
+
+    
+}
+
+/* #x,#x_1,#x_2,#x_3,#x_4,#x_5
+{
+    color:whitesmoke;
+} */
+
+#ey_3,#ey_4,#ey_5
+{
+    border: none;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.p1
+{
+    margin-top: 20px;
+    margin-bottom:60px;
+}
+
+#h1,#h2,#h3{
+    font-family: 'Poppins', sans-serif;
+font-weight: 600;
+
+}
+
+#a_1,#a_2,#a_3,#a_4,#a_5,#a_6
+{
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+}
+
+.backtop
+{
+  margin:-30px 60px 50px; 
+  position: sticky;
+}
+
+.backtop_1
+{
+   margin:-100px 1400px 50px;
+  position: sticky;
+     
+}
+
+#footx,#about
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+#new
+{
+    padding: 5px;
+}
+
+#pro
+{
+    padding-left: 280px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.rounded-circle,#pho{
+   
+       
+    width: 270px;
+    height: 270px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+     border-radius: 50%;
+     /* border: solid 1px green; */
+     
+     margin:30px;
+}
+
+#imgs
+{
+    
+    background: #076585 !important;  
+    background: -webkit-linear-gradient(to right, #fff, #076585) !important;  
+    background: linear-gradient(to right, #fff, #076585) !important; 
+
+}
+
+#s
+{
+    background-image: url("");
+    border-radius: 10px;
+    height: 200px;
+  width:600px;
+  color: #fff;
+  
+}
+
+#s1
+{
+    padding: 20px;
+}
+
+#s1,#s2,#s3,#s4,#s5,#s6
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+#order_confirmation
+{
+      /* background-image: url("assets/images/img_1_scroll.jpg"); */
+      background: #076585  ;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#checkout
+{
+    
+        /* background-image: url("assets/images/img_1_scroll.jpg"); */
+        background: #076585;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        border-radius: 10px;
+        box-shadow: 10px 10px 5px #aaaaaa;
+
+}
+
+
+
+.carousel-item
+{
+    height: 100vh;
+    min-height:300px;
+    background: no-repeat scroll center scroll;
+    background-size:cover;
+
+
+}
+
+.carousel-item::before
+{
+    content:"";
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background: #000; 
+    opacity:0.7;
+
+}
+
+/* #co
+{
+    background: #000;
+} */
+
+.carousel-caption
+{
+    bottom:180px;
+    padding-left: 100px;
+    padding-right:100px;
+
+}
+
+.carousel-caption h5{
+    font-size:100px;
+    font-weight:700;
+
+}
+
+.carousel-caption p{
+    font-size:18px;
+    top:2rem;
+
+}
+
+.slider-btn
+{
+    margin-top: 30px;
+}
+
+.slider-btn .btn{
+    background-color: #e74c3c;
+    color:white;
+    border-radius:0;
+    padding: 1rem 1rem;
+    font-size: 1.1rem;
+    margin-right:15px;
+}
+.slider-btn .btn-1{
+
+    color:#111010;
+    background-color: #e74c3c;
+    width: 150px;
+    border-radius: 50px;
+}
+
+.slider-btn .btn-2{
+    color:#111010;
+    background-color: white;
+    width: 150px;
+    border-radius: 50px;
+}
+
+
+.carousel-inner
+{
+    height: 600px;
+    width:1520px;
+
+}
+
+#y1,#y2,#y3,#y4,#y5,#y6,#y7,#y8,#y9,#y10,#y11,#y12
+{
+    color: #000;
+    padding:10px;
+}
+
+#y
+{
+    color: #000;
+    text-decoration: none;
+}
