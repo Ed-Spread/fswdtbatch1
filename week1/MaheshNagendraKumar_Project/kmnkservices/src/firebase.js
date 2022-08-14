@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import {getAuth, GoogleAuthProvider, signInWithPopup} from "firebase/auth";
+import {getAuth, GoogleAuthProvider, signInWithPopup, signOut} from "firebase/auth";
 
 
 const firebaseConfig = {
@@ -28,8 +28,25 @@ export const signInWithGoogle = () =>{
         localStorage.setItem("name",name)
         localStorage.setItem("email",email)
         localStorage.setItem("profilePic",profilePic)
+        
     })
     .catch((error) =>{
         console.log(error);
     });
 }
+
+export const signingOut = () =>{
+    console.log('CALLING')
+    signOut(auth).then(() => {
+        // Sign-out successful.
+        window.localStorage.clear();
+        console.log('successful')
+      }).catch((error) => {
+        // Sign-in error
+        console.log(error)
+      });
+      console.log('CALLED')
+}
+
+
+  

@@ -1,11 +1,12 @@
 import React from 'react'
 import './Header.css'
-import {signInWithGoogle, auth, provider} from './firebase'
+import {signInWithGoogle, auth, signingOut} from './firebase'
 import { Link } from "react-router-dom";
 
 var name = localStorage.getItem("name")
-var profilePic = localStorage.getItem("profilePic")
+
 console.log(name)
+
 const handleAuthenticaton=()=>{  
         auth.signOut()
 }
@@ -20,7 +21,7 @@ function Header() {
         <div className='header_nav'>
 
             <div className='header_nav_items'>
-                <button className='button' onClick={name?handleAuthenticaton:signInWithGoogle}>{name?'Welcome'+' '+name+' '+'Signout':'Sign in'}</button>
+                <button className='button' onClick={name?signingOut:signInWithGoogle}>{name?'Welcome'+' '+name+' '+'/Signout':'Sign in'}</button>
             </div>
             <Link to='/About'>
                 <div className='header_nav_items'>
