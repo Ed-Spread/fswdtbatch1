@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.section{
+    background-image:url("lightmarriage.jpg");
+    display: flex;
+    justify-content: space-between;
+}
+.section img{
+    height:350px;
+    width:500px;
+}
+.section h3{
+    margin-top:10px;
+    margin-left:30px;
+    color:white;
+    font-family: cursive;
+}
+.section p{
+    margin-left:140px;
+    margin-top:150px;
+    color:azure;
+    font-family:'Times New Roman', Times, serif;
+    font-size:larger;
+    font-weight:lighter;
+}
