@@ -18,11 +18,11 @@
 .header_nav{
     display: flex;
     justify-content: space-evenly;
-    margin-left: 800px;
+    margin-left: 600px;
 }
 
 .profilePic{
-    width: 30px;
+    width: 5px;
 }
 
 .header_nav_items{
