@@ -6,19 +6,20 @@
     position: sticky;
     top: 0;
     z-index: 100;
+    width: 100%;
 }
 
 .header_logo{
-    width: 150px;
+    width: 200px;
     object-fit: contain;
     margin: 0 20px;
-    margin-top: 5px;
+    margin-top: 0.5px;
 }
 
 .header_nav{
     display: flex;
     justify-content: space-evenly;
-    margin-left: 600px;
+    width: 80%;
 }
 
 .profilePic{
@@ -26,10 +27,8 @@
 }
 
 .header_nav_items{
-    display: flex;
+    display: -moz-box;
     flex-direction: column;
-    margin-left: 10px;
-    margin-right: 20px;
     color: white;
     font-size: 150%;
     font-family: Arial, Helvetica, sans-serif;
