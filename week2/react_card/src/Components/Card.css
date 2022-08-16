@@ -1,0 +1,15 @@
+.box1{
+    background-color: skyblue;
+}
+.box1 img{
+    height:15em;
+    width:20em;
+    
+}
+.box1 p{
+    margin-left:4em;
+
+}
+.par p{
+    color: black;
+}
