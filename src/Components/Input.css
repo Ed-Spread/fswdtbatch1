@@ -1,7 +1,32 @@
 input{
-    width:30em;
-    border-radius: 1em;
-    margin-left:11em;
+    margin-top: 2em;
+    margin-left: 27em;
+    border-radius: 2em;
     height:3em;
+    width:18em;
+    margin-bottom:3em;
 }
-
+button{
+    width:9em;
+    height:3em;
+    margin-top: 2em;
+    background-color: rgb(123, 186, 165);
+    border-radius: 2em;
+}
+.show{
+    margin:auto;
+    background-color:rgb(68, 117, 117);
+    width:20em;
+    height:20em;
+    border-radius: 2em;
+}
+img{
+    height:11em;
+    width:15em;
+    padding-left:3em;
+    padding-top:2em;
+}
+.hh{
+    padding-top:4em;
+    text-align: center;
+}
