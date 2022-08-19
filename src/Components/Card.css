@@ -1,0 +1,11 @@
+.box1 img{
+    height:15em;
+    width:20em;
+    border-radius: 3em;
+}
+.box1 p{
+    margin-left:4em;
+}
+.par p{
+    color:aliceblue;
+}
