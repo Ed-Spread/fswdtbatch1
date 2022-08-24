@@ -1,0 +1,20 @@
+.card{
+    width:100px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(61,61,61);
+    color:rgb(233,233,233);
+
+}
+
+.card_title{
+ font-size: 16px;
+ font-weight: 400;
+}
+
+.card_count{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255,255,255);
+}
